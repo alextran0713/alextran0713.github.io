@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="shortcut icon" href="img/favicon.png" />
-  <title>Edward S. Le</title>
+  <title>Material Design Bootstrap</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -19,746 +18,602 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="fixed-sn black-skin">
+<body>
 
-  <!--Double navigation-->
-  <header>
-    <!-- Sidebar navigation -->
-    <div id="slide-out" class="side-nav sn-bg-3 fixed">
-      <ul class="custom-scrollbar">
-        <!-- Logo -->
-        <li>
-          <div class="logo-custom waves-light">
-            <a href="index" class="text-center" ><div id="edward"><span class="letterE">E</span>DWARD</div></a>
-          </div>
-        </li>
-        <!--/. Logo -->
-        <!--Social-->
-        <li>
-          <ul class="social">
-            <li><a href="https://www.linkedin.com/in/edwardsle/" class="icons-sm"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="https://edwardsle.github.io/" class="icons-sm"><i class="fab fa-github"></i></a></li>
-            <li><a href="mailto: le_edward@yahoo.com" class="icons-sm"><i class="far fa-envelope"></i></a></li>
-          </ul>
-        </li>
-        <!--/Social-->
-        <!-- Side navigation links -->
-        <li>
-          <ul class="collapsible collapsible-accordion nav-text">
-            <li><a href="#home" class="collapsible-header waves-effect arrow-r"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="#expertise"  class="collapsible-header waves-effect arrow-r"><i class="fas fa-eye"></i> My Services</a></li>
-            <li><a href="#education"  class="collapsible-header waves-effect arrow-r"><i class="fas fa-school"></i> Education</a></li>
-            <li><a href="#knowledge"  class="collapsible-header waves-effect arrow-r"><i class="fas fa-code"></i> My Skills</a></li>
-            <li><a href="#experience"  class="collapsible-header waves-effect arrow-r"><i class="fas fa-id-card-alt"></i> Experience</a></li>
-            <li><a href="#portfolio"  class="collapsible-header waves-effect arrow-r"><i class="fas fa-suitcase"></i> Portfolio</a></li>
-            <li><a href="EdwardLe_Resume.pdf" class="collapsible-header waves-effect arrow-r" download><i class="fas fa-download"></i> Resume</a></li>
-          </ul>
-        </li>
-        <!--/. Side navigation links -->
-      </ul>
-      <div class="sidenav-bg mask-strong"></div>
-    </div>
-    <!--/. Sidebar navigation -->
-  </header>
-  <!--/.Double navigation-->
+  <!-- Start your project here-->
+  <style>
 
-  <!--Main layout-->
-  <main>
-    <!-- Intro Section -->
-    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient3.png); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-      <div class="mask rgba-indigo-slight">
-        <div class="container h-100 d-flex justify-content-center align-items-center">
-          <div class="row pt-5 mt-3">
-            <div class="col-md-12 mb-3">
-              <div class="intro-info-content text-center">
-                <h1 class="display-3 blue-text mb-5 wow fadeInDown" data-wow-delay="0.3s">
-                  <a class="blue-text font-weight-bold">Edward</a> S. LE
-                </h1>
-                <h5 class="text-uppercase blue-text mb-5 mt-1 font-weight-bold wow fadeInDown" data-wow-delay="0.3s">B.S. in Computer Science</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
 
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 100vh;
+    }
+  }
+
+  .top-nav-collapse {
+    background-color: #82b1ff !important;
+  }
+
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+
+  @media (max-width: 991px) {
+   .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+   }
+  }
+  
+  h5 {
+    letter-spacing: 3px;
+  }
+
+</style>
+
+<!-- Main navigation -->
+<header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div class="container">
-      <!--Section: Team v.1-->
-      <section class="text-center team-section">
-
-        <!--Grid row-->
-        <div class="row text-center">
-
-          <!--Grid column-->
-          <div class="col-md-12 mb-4" style="margin-top: -100px;">
-
-            <div class="avatar mx-auto">
-              <img src="img/EdwardSLe.jpg" class="img-fluid rounded-circle z-depth-1"
-              alt="First sample avatar image">
-            </div>
-            <h3 class="my-3 font-weight-bold">
-              <strong>Edward S. Le</strong>
-            </h3>
-            <h6 class="teal-text mb-4">University of California, Irvine </h6>
-
-            <!--Facebook-->
-            <a class="p-2 m-2 fa-lg fb-ic">
-              <i class="fab fa-facebook-f grey-text"> </i>
+      <a class="navbar-brand" href="#">
+        <strong>MDB</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+        aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
             </a>
-            <!--Twitter-->
-            <a class="p-2 m-2 fa-lg tw-ic">
-              <i class="fab fa-twitter grey-text"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="p-2 m-2 fa-lg ins-ic">
-              <i class="fab fa-instagram grey-text"> </i>
-            </a>
-
-            <p class="mt-5">Graduated from the University of California, Irvine with a Bachelor of Computer Science degree in Artificial Intelligence. Also a freelance website developer with 6 years of experience in building websites for small companies. Experienced with all stages of the development cycle for web projects.</p>
-
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-      </section>
-      <!--Section: My Services-->
-      <section class="dark-grey-text text-center">
-        <div class="jumbotron grey lighten-3">
-          <h6 id="expertise" class="font-weight-normal text-uppercase font-small grey-text mb-4">Expertise</h6>
-          <!-- Section heading -->
-          <h3 class="font-weight-bold black-text mb-4 pb-2">My Services</h3>
-          <hr class="w-header">
-          <!-- Section description -->
-          <div class="row text-center d-flex justify-content-center my-5">
-            <div class="col-lg-3 col-md-6 mb-4">
-              <i class="fas fa-brush fa-3x mb-4 grey-text"></i>
-              <h5 class="font-weight-normal mb-3">UX & UI design</h5>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-              <i class="fas fa-laptop-code fa-3x mb-4 grey-text"></i>
-              <h5 class="font-weight-normal mb-3">Coding & Programming</h5>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-              <i class="fas fa-layer-group fa-3x mb-4 grey-text"></i>
-              <h5 class="font-weight-normal mb-3">Multi-tasking</h5>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-              <i class="fas fa-user-graduate fa-3x mb-4 grey-text"></i>
-              <h5 class="font-weight-normal mb-3">Quick Learner</h5>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Section: Education-->
-      <section id="education" class="mt-4 mb-4">
-        <div class="text-center">
-          <h6 class="font-weight-normal text-uppercase font-small grey-text mb-4">Education</h6>
-          <!-- Section heading -->
-          <h3 class="font-weight-bold black-text mb-4 pb-2">Computer Science</h3>
-          <hr class="w-header">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-
-              <ol class="timeline">
-                <li class="timeline-element">
-                  <h5 class="font-weight-bold dark-grey-text mb-3">B.S. in Computer Science</h5>
-                  <p class="grey-text font-small"><time datetime="2017-08-17">2017 - 2020</time></p>
-                  <p class="text-muted"><img src="img/timeline-uci.png" class="timeline-img"></p>
-                  <p class="text-muted">University of California, Irvine</p>
-                  <p class="text-muted">Irvine, CA 92697</p>
-                  <p class="text-muted">(949) 824-5011</p>
-                  <p class="text-muted">https://www.ics.uci.edu/</p>
-                </li>
-                <li class="timeline-element">
-                  <h5 class="font-weight-bold dark-grey-text mb-3">A.S. in Computer Programming</h5>
-                  <p class="grey-text font-small"><time datetime="2017-02-08">2015 - 2017</time></p>
-                  <p class="text-muted"><img src="img/timeline-occ.jpg" class="timeline-img"></p>
-                  <p class="text-muted">Orange Coast College</p>
-                  <p class="text-muted">2701 Fairview Road Costa Mesa, CA 92626</p>
-                  <p class="text-muted">(714) 432-5072</p>
-                  <p class="text-muted">http://www.orangecoastcollege.edu/</p>
-                </li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Section: experience-->
-      <section>
-        <div class="jumbotron grey lighten-3 z-depth-0 text-center">
-          <h6 id="knowledge" class="font-weight-normal text-uppercase font-small grey-text mb-4">KNOWLEDGE</h6>
-          <!-- Section heading -->
-          <h3 class="font-weight-bold black-text mb-4 pb-2">My Skills</h3>
-          <hr class="w-header">
-          <div class="row text-center d-flex justify-content-center">
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/c.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">C</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/c++.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">C++</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/java.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">Java</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/python.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">Python</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/php.svg" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">PHP</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-              <img src="img/skills/css.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">CSS</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-              <img src="img/skills/html.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">HTML</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/js.jpg" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">JavaScript</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/jquery.jpg" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">jQuery</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/laravel.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">Laravel</h4>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
-              <img src="img/skills/nodejs.png" class="skills-img-size">
-              <h4 class="font-weight-bolder mb-4">NodeJS</h4>
-            </div>
-          </div>
-        </section>
-
-        <!--Section: experience-->
-        <section id="experience">
-          <h6 class="font-weight-normal text-center text-uppercase font-small grey-text mb-4">experience</h6>
-          <h3 class="font-weight-bold text-center black-text mb-4 pb-2">Jobs</h3>
-          <hr class="w-header my-4">
-
-          <div class="row d-flex justify-content-center">
-
-            <div class="col-md-6 col-xl-4 text-center mb-4 border-bottom">
-              <img src="img/jobs/bolsagroup.jpg" class="job-img">
-            </div>
-
-            <div class="col-md-6 mb-4 border-bottom">
-              <div class="d-flex justify-content-between">
-                <h5 class="lead"><a class="dark-grey-text text-capitalize" href="#">Web Developer</a></h5>
-                <p class="small grey-text">2018 - Now</p>
-              </div>
-              <p class="font-weight-normal">BolsaGroup</p>
-              <ul class="text-muted">
-                <li>Developed full-stack websites using:
-                  <ol>
-                    <li>Front-end: HTML, CSS, CSS3, jQuery, Bootstrap</li>
-                    <li>Back-end: Laravel, Core PHP, Java, MySQL, JSON, XML</li>
-                  </ol>
-                </li>
-                <li>Integrated front-end with back-end frameworks and services such as October CMS and Shopify</li>
-              </ul>
-            </div>
-
-            <div class="col-md-6 col-xl-4 text-center mb-4 border-bottom">
-              <img src="img/jobs/vietsky.png" class="job-img">
-            </div>
-
-            <div class="col-md-6 mb-4 border-bottom">
-              <div class="d-flex justify-content-between">
-                <h5 class="lead"><a class="dark-grey-text text-capitalize" href="#">Technician, Editor</a></h5>
-                <p class="small grey-text">2018 - Now</p>
-              </div>
-              <p class="font-weight-normal">Vietsky Television Station</p>
-              <ul class="text-muted">
-                <li>Various work including recording and editing events: operating the lights for video productions, setting up cameras, recording live events.</li>
-                <li>Experience working with YouTubers, editing social media videos.</li>
-              </ul>
-            </div>
-
-
-            <div class="col-md-6 col-xl-4 mb-4 text-center border-bottom">
-              <img src="img/jobs/domino.jpg" class="job-img">
-            </div>
-
-            <div class="col-md-6 mb-4 border-bottom">
-              <div class="d-flex justify-content-between">
-                <h5 class="lead"><a class="dark-grey-text text-capitalize" href="#">Delivery driver</a></h5>
-                <p class="small grey-text">2016 - 2018</p>
-              </div>
-              <p class="font-weight-normal">Domino's Pizza</p>
-              <ul class="text-muted">
-                <li>Responsible for prompt delivery of orders.</li>
-                <li>Average delivery time was 7.64 minutes per order.</li>
-              </ul>
-            </div>
-
-            <div class="col-md-6 col-xl-4 text-center mb-4 border-bottom">
-              <img src="img/jobs/tmobile.jpg" class="job-img">
-            </div>
-
-            <div class="col-md-6 mb-4 border-bottom">
-              <div class="d-flex justify-content-between">
-                <h5 class="lead"><a class="dark-grey-text text-capitalize" href="#">Salesman</a></h5>
-                <p class="small grey-text">2014 - 2016</p>
-              </div>
-              <p class="font-weight-normal">T-Mobile retailer</p>
-              <ul class="text-muted">
-                <li>Maintain knowledge of current promotions and policies regarding payments and exchanges, and privacy practices.</li>
-                <li>Took care of 50+ customers every month, and opened 220+ new accounts.</li>
-                <li>Awarded "Employee of the Month" honor on multiple occasions.</li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-xl-4 text-center border-bottom mb-4">
-              <img src="img/jobs/little_saigon_wireless.png" class="job-img">
-            </div>
-
-            <div class="col-md-6 border-bottom mb-4">
-              <div class="d-flex justify-content-between">
-                <h5 class="lead"><a class="dark-grey-text text-capitalize" href="#">Web developer</a></h5>
-                <p class="small grey-text">2014</p>
-              </div>
-              <p class="font-weight-normal">Little Saigon Wireless</p>
-              <ul class="text-muted">
-                <li>Involved in Full Life Cycle of Software Development Life-Cycle (SDLC) preparing Requirement Specification documents, design documents, Test cases and Analysis, User Training documents and Technical Help documents.</li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-xl-4 border-bottom text-center mb-4">
-              <img src="img/jobs/world.png" class="job-img">
-            </div>
-
-            <div class="col-md-6 border-bottom mb-4">
-              <div class="d-flex justify-content-between">
-                <h5 class="lead"><a class="dark-grey-text text-capitalize" href="#">Web designer</a></h5>
-                <p class="small grey-text">2010 - 2013</p>
-              </div>
-              <p class="font-weight-normal">WORLD Corp.</p>
-              <ul class="text-muted">
-                <li>3 years of strong experience in front-end designing.</li>
-                <li>Created 100+ templates selling on ThemeForest.</li>
-                <li>Joined the core team of the company and developed successful 100+ web pages.</li>
-              </ul>
-            </div>
-
-          </div>
-
-        </section>
-
-        <!--Section: portfolio-->
-        <section id="portfolio" class="rounded grey lighten-3 py-5 mb-2">
-          <h6 class="font-weight-normal text-center text-uppercase font-small grey-text mb-4">portfolio</h6>
-          <h3 class="font-weight-bold text-center black-text mb-4 pb-2">My Projects</h3>
-          <hr class="w-header my-4">
-          <div class="row">
-            <!-- Card AI-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/ai.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Artificial Intelligence</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>3/2019 -6/2019</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/ai-denoising.jpg" alt="See more on Github" >
-                  <a href="https://github.com/edwardsle/imagedenoise.git" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">Image Denoising Using Deep Neural Network</h4>
-                    <ul class="card-text collapse" id="ai-image-denoising">
-                      <li>Designed and implemented a Deep Neural Network to denoise images using Python and Google Cloud Virtual Machine</li>
-                      <li>Accomplished 8.34% overall improvement in denoised photos compared to 11.14% of state-of-the-art BM3D method</li>
-                    </ul>
-                    <!-- Button -->
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#ai-image-denoising" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card AI-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/ai.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Artificial Intelligence</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>1/2019 - 3/2019</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/ai-genetic-alg.jpg" alt="See more on Github" >
-                  <a href="#!" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">Genetic Algorithm in OpenAI Gym</h4>
-                    <ul class="card-text collapse" id="ai-genetic-alg">
-                      <li>Optimized and evaluated an algorithm to train an animated actor in simulation using Python in Ubuntu</li>
-                      <li>Achieved a 20% better score compared to a published result from UC Berkeley</li>
-                    </ul>
-                    <!-- Button -->
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#ai-genetic-alg" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card AI-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/ai.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Artificial Intelligence</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>3/2018 - 5/2018</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/simple-search-engine.jpg" alt="See more on Github" >
-                  <a href="https://github.com/edwardsle/Search-Engine.git" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">Simple Search Engine using Java, MySQL, and VueJS</h4>
-                    <ul class="card-text collapse" id="ai-simple-search-engine">
-                      <li>Created an inverted index of a given 37,500 HTML files corpus and imported it to MySQL</li>
-                      <li>Implemented a search engine using TF-IDF ranking, Java EE</li>
-                      <li>Designed a web interface for the search engine using Bootstrap, Vue, JSON</li>
-                    </ul>
-                    <!-- Button -->
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#ai-simple-search-engine" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-          </div>
-          <div class="row">
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2019</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/the-aura.jpg" alt="Open The Aura website" >
-                  <a href="https://beautylicensing.com/" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">The Aura</h4>
-                    <p class="lead">Online Beauty School</p>
-                    <p class="card-text collapse" id="web-the-aura">We created this page with WIX, a website builder, at the client's special request. The goal of this project is to bring a new modern style interface and consistent with the brand identity.</p>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-the-aura" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2019</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/cl-construction.jpg" alt="Open CL Construction website" >
-                  <a href="http://clconstructionssa.com/" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">CL Constructions, LLC</h4>
-                    <p class="lead">Local Construction Company</p>
-                    <p class="card-text collapse" id="web-cl-construction">A WordPress project at the request of the client after the owner lost his access to his website. Owners urgently need a new website within a week and it must function exactly the same as the site was lost.</p>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-cl-construction" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2018</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/a52usatrading.jpg" alt="Open CL Construction website" >
-                  <a href="http://www.a52usatrading.com/" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">A52USATrading, LLC</h4>
-                    <p class="lead">Local Construction Company</p>
-                    <p class="card-text collapse" id="web-a52usatrading">Portfolio website - a creative project designed to reflect the owner’s experience and to show his skills. The main website element is the gallery (the works performed) by using Laravel.</p>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-a52usatrading" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2018</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/fabflix.jpg" alt="Open CL Construction website" >
-                  <a href="https://github.com/edwardsle/Fabflix.git" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">Fabflix</h4>
-                    <p class="lead">E-commerce Web on AWS</p>
-                    <p class="card-text collapse">School project</p>
-                    <ul class="card-text collapse" id="web-fabflix">
-                      <li>A website function similar to Netflix (browsing, searching, and purchasing movies from a remote server).</li>
-                      <li>Implemented on AWS using a variety of Java, Javascript, servlets, HTML, Apache Tomcat, AJAX, CSS files, and XML files to create the website while also being linked to a MySQL database.</li>
-                      <li>Increased scalability and security by implementing recapcha, cookies, and load balancing via master-slave instances.</li>
-                      <li>At the end of the project, we are also required to build a simple android app that can access data from the MySQL database.</li>
-                    </ul>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-fabflix" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2018</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/nhadatusa.jpg" alt="Open CL Construction website" >
-                  <a href="http://bannhadatusa.com/" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">NhaDatUSA</h4>
-                    <p class="lead">Trading real estate</p>
-                    <p class="card-text collapse" id="web-nhadatusa">Portfolio website.</p>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-nhadatusa" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2018</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/miminails.jpg" alt="Open CL Construction website" >
-                  <a href="http://mimisnails.com/" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">Mimi’s Nails Spa</h4>
-                    <p class="lead">Nails Salon</p>
-                    <p class="card-text collapse" id="web-miminails">Portfolio website.</p>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-miminails" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2017</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/khoihanh.jpg" alt="Open CL Construction website" >
-                  <a href="https://tapchikhoihanh.com" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">Khoi Hanh Magazine</h4>
-                    <p class="lead">Monthly Magazine</p>
-                    <p class="card-text collapse" id="web-tapchikhoihanh">A cultural and artistic magazine of the Vietnamese community in the US. Digitizing the 60-year-old magazine by using Laravel, VueJS and MySQL.</p>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-tapchikhoihanh" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2017</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/55moving.jpg" alt="Open CL Construction website" >
-                  <a href="https://tapchikhoihanh.com" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">55Moving</h4>
-                    <p class="lead">Local Moving Company</p>
-                    <p class="card-text collapse" id="web-55moving">Portfolio website.</p>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-55moving" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-            <!-- Card WED-PROJECT -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="card promoting-card">
-                <div class="card-body d-flex flex-row">
-                  <img src="img/web.jpg" class="rounded-circle mr-3" height="50px" width="50px" alt="avatar">
-                  <div>
-                    <h4 class="card-title">Web Development</h4>
-                    <p class="card-text"><i class="far fa-clock pr-2"></i>2017</p>
-                  </div>
-                </div>
-                <div class="view overlay">
-                  <img class="card-img-top rounded-0" src="img/projects/wotown.jpg" alt="Open CL Construction website" >
-                  <a href="http://wo-town.com/lswcms/" target="_blank">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <div class="collapse-content">
-                    <h4 class="card-title">LSWCMS</h4>
-                    <p class="lead">Point of sale (POS)</p>
-                    <p class="card-text collapse">The owner needed a system to manage his three phone-repair shops</p>
-                    <ul class="card-text collapse" id="web-lswcms">
-                      <li>The system manages employees, inventory, and daily income.</li>
-                      <li>Daily report; Inventory report; Employee timesheet;</li>
-                      <li>Implemented on GoDaddy using pure PHP and JavaScript linked to a MySQL database.</li>
-                    </ul>
-                    <a class="btn btn-flat red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#web-lswcms" aria-expanded="false" aria-controls="collapseContent"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Card -->
-          </div>
-        </section>
-
-      </div>
-    </main>
-    <!--/Main layout-->
-    <!--Footer-->
-    <footer class="page-footer text-center text-md-left pt-4">
-      <!--Social buttons-->
-      <div class="social-section text-center">
-        <ul class="list-unstyled list-inline">
-          <li class="list-inline-item"><a href="https://www.linkedin.com/in/edwardsle/" class="btn-floating btn-li"><i class="fab fa-linkedin-in"> </i></a></li>
-          <li class="list-inline-item"><a href="https://edwardsle.github.io/" class="btn-floating btn-git"><i class="fab fa-github"> </i></a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
         </ul>
+        <form class="form-inline">
+          <div class="md-form my-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          </div>
+        </form>
       </div>
-      <!--/.Social buttons-->
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!-- Full Page Intro -->
+  <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-white-light d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12 white-text text-center">
+            <h1 class="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown" data-wow-delay="0.3s">ALEX
+              <a class="indigo-text font-weight-bold">TRAN</a>
+            </h1>
+            <h5 class="text-uppercase pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown"
+              data-wow-delay="0.3s">Web developer & graphic designer</h5>
+            <div class="wow fadeInDown" data-wow-delay="0.3s">
+              <a class="btn btn-light-blue btn-lg btn-rounded">portfolio</a>
+              <a class="btn btn-indigo btn-lg btn-rounded">About me</a>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+  </div>
+  <!-- Full Page Intro -->
+</header>
+<!-- Main navigation -->
+<div class="container my-5">
 
-      <!--Copyright-->
-      <div class="footer-copyright py-3 text-center">
-        <div class="container-fluid">
-          Edward S. Le
+  <section>
+    
+    <div class="card mb-4">
+      
+      <div class="row">
+
+        <div class="col-md-6">
+          <img class="img-fluid rounded-left" src="https://mdbootstrap.com/img/Photos/Vertical/7.jpg" alt="project image">
+        </div>
+
+        <div class="col-md-6 p-5 align-self-center">
+
+          <h5 class="font-weight-normal mb-3">Project detail</h5>
+
+          <p class="text-muted">Out or geared it but to best up samples the for she phase of copy would do in divine
+            of taken and the take medical or upper at him in the logbook were, we price his mostly to commas.</p>
+
+          <ul class="list-unstyled font-small mt-5 mb-0">
+            <li>
+              <p class="text-uppercase mb-2"><strong>Client</strong></p>
+              <p class="text-muted mb-4">Envato Inc.</p>
+            </li>
+
+            <li>
+              <p class="text-uppercase mb-2"><strong>Date</strong></p>
+              <p class="text-muted mb-4">June 27, 2019</p>
+            </li>
+
+            <li>
+              <p class="text-uppercase mb-2"><strong>Skills</strong></p>
+              <p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+            </li>
+
+            <li>
+              <p class="text-uppercase mb-2"><strong>Address</strong></p>
+              <a href="https://mdbootstrap.com/docs/jquery/design-blocks/">MDBootstrap</a>
+            </li>
+
+            <li>
+              <p class="text-uppercase mt-4 mb-2"><strong>Share</strong></p>
+              <div class="d-flex justify-content-start">
+                <a class="text-muted pr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-muted pr-3" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="text-muted pr-3" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="text-muted" href="#"><i class="fab fa-dribbble"></i></a>
+              </div>
+            </li>
+
+          </ul>
 
         </div>
-      </div>
-      <!--/.Copyright-->
 
-    </footer>
-    <!--/.Footer-->
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script>
-    $(document).ready(function() {
-      // SideNav Default Options
-      $('.button-collapse').sideNav({
-        edge: 'left', // Choose the horizontal origin
-        closeOnClick: false, // Closes side-nav on &lt;a&gt; clicks, useful for Angular/Meteor
-        breakpoint: 1440, // Breakpoint for button collapse
-        menuWidth: 240, // Width for sidenav
-        timeDurationOpen: 300, // Time duration open menu
-        timeDurationClose: 200, // Time duration open menu
-        timeDurationOverlayOpen: 50, // Time duration open overlay
-        timeDurationOverlayClose: 200, // Time duration close overlay
-        easingOpen: 'easeOutQuad', // Open animation
-        easingClose: 'easeOutCubic', // Close animation
-        showOverlay: true, // Display overflay
-        showCloseButton: false // Append close button into siednav
-      });
-    });
-    </script>
-  </body>
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+<div class="container my-5">
+
+  <!-- Section -->
+  <section>
+    
+    <style>
+      .md-pills .nav-link.active {
+        color: #fff;
+        background-color: #616161;
+      }
+      button.close {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        padding-right: 1rem;
+        padding-top: .6rem;
+      }
+    </style>
+    
+    <!-- Modal -->
+		<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body p-0">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						
+						<!-- Grid row -->
+						<div class="row">
+						
+							<!-- Grid column -->
+							<div class="col-md-6 py-5 pl-5">
+								
+								<h5 class="font-weight-normal mb-3">Paper cup mockup</h5>
+
+								<p class="text-muted">Key letters, explain which writing we he carpeting or fame, the itch expand medical amped through constructing time. And scarfs, gain, get showed accounts decades.</p>
+
+								<ul class="list-unstyled font-small mt-5">
+									<li>
+										<p class="text-uppercase mb-2"><strong>Client</strong></p>
+										<p class="text-muted mb-4">Envato Inc.</p>
+									</li>
+
+									<li>
+										<p class="text-uppercase mb-2"><strong>Date</strong></p>
+										<p class="text-muted mb-4">June 27, 2019</p>
+									</li>
+
+									<li>
+										<p class="text-uppercase mb-2"><strong>Skills</strong></p>
+										<p class="text-muted mb-4">Design, HTML, CSS, Javascript</p>
+									</li>
+
+									<li>
+										<p class="text-uppercase mb-2"><strong>Address</strong></p>
+										<a href="https://mdbootstrap.com/docs/jquery/design-blocks/">MDBootstrap</a>
+									</li>
+								</ul>
+								
+							</div>
+							<!-- Grid column -->
+						
+							<!-- Grid column -->
+							<div class="col-md-6">
+								
+								<div class="view rounded-right">
+									<img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/5.jpg" alt="Sample image">
+								</div>
+								
+							</div>
+							<!-- Grid column -->
+						
+						</div>
+						<!-- Grid row -->
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">portfolio</h6>
+    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Product Designs</h3>
+    <hr class="w-header my-4">
+    <p class="lead text-center text-muted pt-2 mb-5">You can find several product design by our professional team in
+      this section.</p>
+		
+    <!--First row-->
+    <div class="row">
+
+      <!--First column-->
+      <div class="col-12">
+
+        <!-- Nav tabs -->
+        <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">ALL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">Mockup</a>
+          </li>
+        </ul>
+
+      </div>
+      <!--First column-->
+
+    </div>
+    <!--First row-->
+
+    <!--Tab panels-->
+    <div class="tab-content mb-5">
+
+      <!--Panel 1-->
+      <div class="tab-pane fade show in active" id="panel31" role="tabpanel">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-12 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Phone Bag</h5>
+                <p class="card-text text-uppercase mb-3">Bag, Box</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Paper Bag</h5>
+                <p class="card-text text-uppercase mb-3">Bag</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Book</h5>
+                <p class="card-text text-uppercase mb-3">Book</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Notes</h5>
+                <p class="card-text text-uppercase mb-3">Note</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">T-shirt</h5>
+                <p class="card-text text-uppercase mb-3">Box</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Magazine</h5>
+                <p class="card-text text-uppercase mb-3">Book</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!--Panel 1-->
+
+      <!--Panel 2-->
+      <div class="tab-pane fade" id="panel32" role="tabpanel">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-12 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img9.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Paper Bag</h5>
+                <p class="card-text text-uppercase mb-3">Bag</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img4.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Book</h5>
+                <p class="card-text text-uppercase mb-3">Book</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img8.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Magazine</h5>
+                <p class="card-text text-uppercase mb-3">Book</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!--Panel 2-->
+
+      <!--Panel 3-->
+      <div class="tab-pane fade" id="panel33" role="tabpanel">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-12 col-lg-4">
+
+            <!-- Card -->
+            <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img3.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Phone Bag</h5>
+                <p class="card-text text-uppercase mb-3">Bag, Box</p>
+
+              </div>
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img5.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">Notes</h5>
+                <p class="card-text text-uppercase mb-3">Note</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-4">
+
+            <!-- Card -->
+            <a class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal">
+
+              <!-- Card image -->
+              <img class="card-img-top" src=" https://mdbootstrap.com/img/Photos/Others/img10.jpg" alt="Card image cap">
+
+              <!-- Card content -->
+              <div class="card-body">
+
+                <h5 class="my-3">T-shirt</h5>
+                <p class="card-text text-uppercase mb-3">Box</p>
+
+              </div>
+
+            </a>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!--Panel 3-->
+
+    </div>
+    <!--Tab panels-->
+
+  </section>
+  <!-- Section -->
+
+</div>
+  <!-- Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
