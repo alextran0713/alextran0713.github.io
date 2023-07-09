@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #1a0b2e;
+}
+
+@media (min-width: 961px) {
+  .navbar-logo {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+  }
+
+  .navbar-menu {
+    min-width: 400px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 950px) {
+  .navbar-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+}
