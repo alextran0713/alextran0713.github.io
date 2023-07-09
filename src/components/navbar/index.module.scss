@@ -2,7 +2,7 @@
   background-color: #1a0b2e;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 961px) {
   .navbar-logo {
     display: flex !important;
     flex-wrap: wrap;
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 950px) {
   .navbar-menu {
     display: flex;
     flex-wrap: wrap;
