@@ -33,12 +33,13 @@ const Profile = ({}: ProfileProps) => {
               <span>A Software Developer who</span> <br />
               <span style={{ fontSize: 20 }}>
                 {" "}
-                Dedicated my expertise <br />
+                Dedicated skills and time
+                <br />
                 to bring{" "}
                 <span style={{ color: "#7127ba" }}>positive changes </span>
+                <br />
+                <span>in people's lives.</span>
               </span>
-              <br />
-              <span>in people's lives.</span>
               <br />
               <span style={{ fontSize: 12 }}>
                 How would you create positive change in people's lives?
