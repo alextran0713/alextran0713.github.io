@@ -1,9 +1,11 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import styles from "./index.module.scss";
 
-export interface NavbarProps {}
+export interface NavbarProps {
+  setDisplayResume: (displayResume: boolean) => void;
+}
 
-const Navbars = (props: NavbarProps) => {
+const Navbars = ({ setDisplayResume }: NavbarProps) => {
   return (
     <Navbar expand="lg" className={styles?.["navbar"]} data-bs-theme="dark">
       <Container>
@@ -19,7 +21,9 @@ const Navbars = (props: NavbarProps) => {
         >
           <Nav className={styles?.["navbar-menu"] + " me-auto"}>
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="#resume" onClick={() => setDisplayResume(true)}>
+              Resume
+            </Nav.Link>
             <Nav.Link href="#link">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
