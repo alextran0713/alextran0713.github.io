@@ -1,14 +1,23 @@
+import { useTypewriter } from "react-simple-typewriter";
 import styles from "./index.module.scss";
 
 const AboutMe = () => {
+  const [typeEffect] = useTypewriter({
+    words: ["Software Developer", "Collaborator", "Gamer"],
+    loop: true,
+    typeSpeed: 100,
+    deleteSpeed: 70,
+  });
   return (
     <div className={styles?.["container"]}>
-      <h1>I'm a Software Developer.</h1>
+      <h1>
+        I'm a <span className={styles?.["key-description"]}>{typeEffect}</span>
+      </h1>
       <span>
         Currently, I'm currently working at{" "}
         <a href="https://www.777part.com/">
           {" "}
-          <img src={require("../../img/777-logo-clear-1.png")} />
+          <img src={require("../../img/777-logo-clear-logo.png")} />
         </a>
       </span>
       <br />

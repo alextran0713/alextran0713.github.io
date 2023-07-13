@@ -1,7 +1,7 @@
 import styles from "./index.module.scss";
 import { useRef, useState, useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
-import Xarrow from "react-xarrows";
+import Xarrow, { useXarrow } from "react-xarrows";
 
 interface ProfileProps {}
 
@@ -9,7 +9,7 @@ const Profile = ({}: ProfileProps) => {
   const profileImgRef = useRef(null);
   const profileTextRef = useRef(null);
   return (
-    <div className={styles?.["profile"]}>
+    <div className={styles?.["profile"]} onLoad={useXarrow()}>
       <Col>
         <Row>
           <Col lg={6} className={styles?.["profile-text-container"]}>
