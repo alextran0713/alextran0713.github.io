@@ -7,7 +7,12 @@ export interface NavbarProps {
 
 const Navbars = ({ setDisplayResume }: NavbarProps) => {
   return (
-    <Navbar expand="lg" className={styles?.["navbar"]} data-bs-theme="dark">
+    <Navbar
+      expand="lg"
+      className={styles?.["navbar"]}
+      data-bs-theme="dark"
+      sticky="top"
+    >
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex">

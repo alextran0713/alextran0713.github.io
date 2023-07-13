@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import styles from "./index.module.scss";
 import Profile from "../profile";
 import AboutMe from "../about-me";

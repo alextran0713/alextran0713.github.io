@@ -17,7 +17,7 @@ const AboutMe = () => {
         Currently, I'm currently working at{" "}
         <a href="https://www.777part.com/">
           {" "}
-          <img src={require("../../img/777-logo-clear-1.png")} />
+          <img src={require("../../img/777-logo-clear-logo.png")} />
         </a>
       </span>
       <br />
