@@ -1,4 +1,4 @@
-import { JobInfo } from "../types/types";
+import { AlertType, JobInfo } from "../types/types";
 
 export const jobs: JobInfo[] = [
   {
@@ -68,3 +68,10 @@ export const jobs: JobInfo[] = [
     },
   },
 ];
+
+export const websiteInProgressAlert: AlertType = {
+  title: "Important Message",
+  message:
+    "Kindly be advised that my website is currently undergoing development and nearing its final stages. I would like to extend an exclusive preview, providing you with a glimpse of what's in store.",
+  closeButton: true,
+};

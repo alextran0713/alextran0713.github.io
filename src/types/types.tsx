@@ -7,3 +7,10 @@ export interface JobInfo {
   companyLogo?: string;
   duration: JobDate;
 }
+
+export interface AlertType {
+  title?: string;
+  message?: string;
+  closeButton?: boolean;
+  selectionButton?: boolean;
+}
