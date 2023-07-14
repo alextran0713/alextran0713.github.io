@@ -8,10 +8,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={Helper?.isProd() ? <UnavailablePage /> : <MainPage />}
-        ></Route>
+        <Route path="/" element={<MainPage />}></Route>
+        <Route path="*" element={<UnavailablePage />} />
       </Routes>
     </BrowserRouter>
   );

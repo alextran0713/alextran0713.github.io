@@ -2,10 +2,11 @@ import { Col, Row } from "react-bootstrap";
 import GradientComponent from "../gradient-background";
 import styles from "./index.module.scss";
 import { map } from "lodash";
+import { format } from "date-fns";
 
 export interface JobDate {
   from: string;
-  to: string;
+  to: string | null;
 }
 
 export interface JobItemProps {
@@ -13,6 +14,7 @@ export interface JobItemProps {
   jobDescriptions: string[];
   companyName: string;
   companyLogo?: string;
+  duration: JobDate;
 }
 
 const JobItem = ({
@@ -20,32 +22,44 @@ const JobItem = ({
   jobDescriptions,
   companyName,
   companyLogo,
+  duration,
 }: JobItemProps) => {
-  const descriptions = [1, 2, 3, 4, 5];
+  const formattedFrom = format(new Date(duration?.from), "LLL yyyy");
+  const formattedTo = duration?.to
+    ? format(new Date(duration?.to), "LLL yyyy")
+    : "Current";
+  const formattedDate = formattedFrom + " - " + formattedTo;
   return (
-    <Col className={styles?.["container"]} lg={6} md={12}>
+    <Col className={styles?.["container"]} lg={12} md={12}>
       <GradientComponent>
-        <Row>
-          <Col lg={6} className="d-lg-flex d-none">
-            <img src={companyLogo} />
+        <Row className="align-items-center">
+          <Col
+            lg={2}
+            md={12}
+            className={styles?.["image-container"] + " d-flex"}
+          >
+            <img className={styles?.["image-style"]} src={companyLogo} />
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={10} md={12}>
             <Row>
-              <Col>Title</Col>
-              <Col className="d-flex justify-content-end">Occupation Time</Col>
+              <Col>
+                <strong>{jobTitle}</strong>
+              </Col>
+              <Col className="d-flex justify-content-end">{formattedDate}</Col>
             </Row>
-            <Row className="d-flex justify-content-center">
-              {/* {map(jobDescriptions || [], (desc) => {
+            <Row>
+              <Col>{companyName}</Col>
+            </Row>
+            <Row className="d-flex p-3">
+              {map(jobDescriptions || [], (desc) => {
                 return (
-                  <Row>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: desc,
-                      }}
-                    />
-                  </Row>
+                  <li
+                    dangerouslySetInnerHTML={{
+                      __html: desc,
+                    }}
+                  />
                 );
-              })} */}
+              })}
             </Row>
           </Col>
         </Row>
