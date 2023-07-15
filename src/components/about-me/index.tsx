@@ -14,10 +14,12 @@ const AboutMe = () => {
         I'm a <span className={styles?.["key-description"]}>{typeEffect}</span>
       </h1>
       <span>
-        Currently, I'm currently working at{" "}
+        Currently, I'm a Full-stack developer at{" "}
         <a href="https://www.777part.com/">
-          {" "}
-          <img src={require("../../img/777-logo-clear-logo.png")} />
+          <img
+            style={{ width: 50 }}
+            src={require("../../img/777-logo-clear-1.png")}
+          />
         </a>
       </span>
       <br />

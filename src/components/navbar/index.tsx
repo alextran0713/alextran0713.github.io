@@ -16,7 +16,7 @@ const Navbars = ({ setDisplayResume }: NavbarProps) => {
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex">
-            <img src={require("../../img/navbar-logo.png")} />
+            <img style={{height:50}}src={require("../../img/AT_Logo_BlackOutline_Small.png")} />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
