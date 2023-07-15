@@ -54,7 +54,7 @@ export const jobs: JobInfo[] = [
     jobDescriptions: [
       "Utilized a <b>microservice</b> architecture approach to design both the Frontend and Backend applications",
       "Hosted and deployed the application to Heroku, a cloud platform as a service (<b>PaaS</b>) provider",
-      "Continuously maintained and provided support for new feature updates and releases for the client"
+      "Continuously maintained and provided support for new feature updates and releases for the client",
     ],
     companyName: "Bolsa Group",
     companyLogo: require("../img/BolsaGroup_Small_Size.png"),
@@ -71,3 +71,6 @@ export const websiteInProgressAlert: AlertType = {
     "Kindly be advised that my website is currently undergoing development and nearing its final stages. I would like to extend an exclusive preview, providing you with a glimpse of what's in store.",
   closeButton: true,
 };
+
+export const aboutMeDescription =
+  "I have accumulated 2+ years of hands-on experience working with React and TypeScript. During my time at 777 Partners, I have developed and sharpened my skill to create customizable and reusable components/libraries. I have developed and provided support for an affordable airline carrier's internet booking engine (IBE). I am committed to using my skills to make a difference. Whether it's developing applications that promote sustainability, or designing software to enhance accessibility, I am driven by the desire to contribute to a better world through my coding abilities.";
