@@ -15,7 +15,7 @@ const AboutMe = () => {
         I'm a <span className={styles?.["key-description"]}>{typeEffect}</span>
       </h1>
       <span>
-        Currently, I'm a Full-stack developer at{" "}
+        Currently, I'm a full-stack developer at{" "}
         <a href="https://www.777part.com/">
           <img
             style={{ width: 50 }}
