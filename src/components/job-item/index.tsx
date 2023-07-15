@@ -50,7 +50,7 @@ const JobItem = ({
             <Row>
               <Col>{companyName}</Col>
             </Row>
-            <Row className="d-flex p-3">
+            <Row className={styles?.["job-description"] + " d-flex p-3"}>
               {map(jobDescriptions || [], (desc) => {
                 return (
                   <li

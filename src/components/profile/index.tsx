@@ -33,7 +33,9 @@ const Profile = ({}: ProfileProps) => {
               <span>A Software Developer who</span> <br />
               <span style={{ fontSize: 20 }}>
                 {" "}
-                Dedicated skills and time
+                Committed to using
+                <br />
+                my skills and time
                 <br />
                 to bring{" "}
                 <span style={{ color: "#7127ba" }}>positive changes </span>
