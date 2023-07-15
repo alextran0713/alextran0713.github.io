@@ -16,7 +16,10 @@ const Navbars = ({ setDisplayResume }: NavbarProps) => {
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex">
-            <img style={{height:50}}src={require("../../img/AT_Logo_BlackOutline_Small.png")} />
+            <img
+              style={{ height: 50 }}
+              src={require("../../img/AT_Logo_BlackOutline_Small.png")}
+            />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,7 +32,9 @@ const Navbars = ({ setDisplayResume }: NavbarProps) => {
             <Nav.Link href="#resume" onClick={() => setDisplayResume(true)}>
               Resume
             </Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/alex-tran-ab9095176/">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
