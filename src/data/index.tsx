@@ -22,9 +22,9 @@ export const jobs: JobInfo[] = [
     jobDescriptions: [
       "Implemented a comprehensive set of test cases utilizing <b>JavaScript</b>, <b>Selenium WebDriver</b>, and <b>Cucumber</b> to enhance UI automation test coverage",
       "Simulated real-world traffic for API testing using <b>Node.js</b>, <b>Jest</b>, and <b>Cucumber</b>",
-      "Engaged in all stages of the software development life cycle (<b>SDLC</b>), ensuring active involvement from requirements gathering to deployment and maintenance",
-      "Utilized <b>Kanban</b> methodology to prioritize and manage requirements effectively, promoting efficient workflow and timely delivery of features",
-      "Leveraged <b>Jira</b> as a robust project management tool to track and resolve bug tickets, facilitating streamlined bug resolution processes",
+      "Engaged in all stages of the software development life cycle (<b>SDLC</b>)",
+      "Utilized <b>Kanban</b> methodology to prioritize and manage requirements effectively",
+      "Leveraged <b>Jira</b> as a robust project management tool to track and resolve bug tickets",
     ],
     companyName: "PriceSpider",
     companyLogo: require("../img/PriceSpider_Original_Size.png"),
@@ -37,9 +37,9 @@ export const jobs: JobInfo[] = [
   {
     jobTitle: "Software QA Analyst",
     jobDescriptions: [
-      "Actively maintained and provided valuable support to an embedded team member through the ticket system",
+      "Actively maintained and provided valuable support to an embedded team member",
       "Identified, developed, and executed test cases as per the requests and requirements of the embedded team member",
-      "Took charge of updating and expanding an existing test cases for <b>Java</b> automation framework",
+      "Updated and expanded an existing test cases for <b>Java</b> automation framework",
     ],
     companyName: "SQASquared",
     companyLogo: require("../img/SQASquare_Small_Size.png"),
@@ -54,7 +54,7 @@ export const jobs: JobInfo[] = [
     jobDescriptions: [
       "Utilized a <b>microservice</b> architecture approach to design both the Frontend and Backend applications",
       "Hosted and deployed the application to Heroku, a cloud platform as a service (<b>PaaS</b>) provider",
-      "Continuously maintained and provided support for new feature updates and releases for the client",
+      "Continuously maintained and provided support for new feature updates and releases",
     ],
     companyName: "Bolsa Group",
     companyLogo: require("../img/BolsaGroup_Small_Size.png"),
