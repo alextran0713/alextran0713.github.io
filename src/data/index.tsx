@@ -1,4 +1,4 @@
-import { AlertType, JobInfo } from "../types/types";
+import { AlertType, JobInfo, TechnicalSkillData } from "../types/types";
 
 export const jobs: JobInfo[] = [
   {
@@ -74,3 +74,52 @@ export const websiteInProgressAlert: AlertType = {
 
 export const aboutMeDescription =
   "I have accumulated 2+ years of hands-on experience working with React and TypeScript. During my time at 777 Partners, I have developed and sharpened my skill to create customizable and reusable components/libraries. I have developed and provided support for an affordable airline carrier's internet booking engine (IBE). I am committed to using my skills to make a difference. Whether it's developing applications that promote sustainability, or designing software to enhance accessibility, I am driven by the desire to contribute to a better world through my coding abilities.";
+
+export const technicalSkillData: TechnicalSkillData = {
+  description:
+    "I am currently seeking a company that can support the growth of my career as a software developer while providing me with the opportunity to make a significant impact through Software as a Service (SaaS)",
+  frameworkAndSkill: [
+    {
+      sectionName: "Languages",
+      img: "",
+      listOfSkills: [
+        "Typescript",
+        "Javascript",
+        "C++",
+        "Python",
+        "HTML",
+        "CSS",
+        "Bash",
+      ],
+    },
+    {
+      sectionName: "Frameworks and Libraries",
+      img: "",
+      listOfSkills: [
+        "Reacts",
+        "React Native",
+        "Mobx",
+        "Express,js",
+        "Node.js",
+        "Next.js",
+        "Bootstrap",
+        "Fastlane",
+        "Codepush",
+      ],
+    },
+    {
+      sectionName: "Tools",
+      img: "",
+      listOfSkills: [
+        "Jira",
+        "GitLab CI/CD",
+        "Android Studio",
+        "Xcode",
+        "App Store",
+        "Next.js",
+        "Google Play",
+        "Heroku",
+      ],
+    },
+  ],
+};
