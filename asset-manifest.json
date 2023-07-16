@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b79ae1f4.css",
-    "main.js": "/static/js/main.067dc49e.js",
+    "main.css": "/static/css/main.5d8e4276.css",
+    "main.js": "/static/js/main.7a958a5f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/AlexTran_Resume.pdf": "/static/media/AlexTran_Resume.a5a02fc7e901a896470d.pdf",
+    "static/media/Github_Icon.png": "/static/media/Github_Icon.abb5df5cb6033db6a886.png",
+    "static/media/LinkedIn_Icon.png": "/static/media/LinkedIn_Icon.6ac77341c7a1f1743ba6.png",
+    "static/media/AlexTran_Resume.pdf": "/static/media/AlexTran_Resume.8e73ec82142edd663d2e.pdf",
     "static/media/Profile.png": "/static/media/Profile.32d9f9e6c48ce53d8889.png",
     "static/media/under-con.webp": "/static/media/under-con.400c89b12550893ff87c.webp",
+    "static/media/Gmail_Icon.png": "/static/media/Gmail_Icon.f1e9bccc16471cd4a86c.png",
     "static/media/AT_Logo_BlackOutline_Small.png": "/static/media/AT_Logo_BlackOutline_Small.42ea1556f042e4c1caf6.png",
     "static/media/SQASquare_Small_Size.png": "/static/media/SQASquare_Small_Size.d93ee84baae253095231.png",
     "index.html": "/index.html",
-    "main.b79ae1f4.css.map": "/static/css/main.b79ae1f4.css.map",
-    "main.067dc49e.js.map": "/static/js/main.067dc49e.js.map",
+    "main.5d8e4276.css.map": "/static/css/main.5d8e4276.css.map",
+    "main.7a958a5f.js.map": "/static/js/main.7a958a5f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b79ae1f4.css",
-    "static/js/main.067dc49e.js"
+    "static/css/main.5d8e4276.css",
+    "static/js/main.7a958a5f.js"
   ]
 }
