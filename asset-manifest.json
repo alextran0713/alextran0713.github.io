@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f65dfece.css",
-    "main.js": "/static/js/main.598114ae.js",
+    "main.css": "/static/css/main.b79ae1f4.css",
+    "main.js": "/static/js/main.e0722932.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/AlexTran_Resume.pdf": "/static/media/AlexTran_Resume.7c344393a787ee05be63.pdf",
+    "static/media/AlexTran_Resume.pdf": "/static/media/AlexTran_Resume.05441cfa3aa8f52d7064.pdf",
     "static/media/Profile.png": "/static/media/Profile.32d9f9e6c48ce53d8889.png",
     "static/media/under-con.webp": "/static/media/under-con.400c89b12550893ff87c.webp",
     "static/media/AT_Logo_BlackOutline_Small.png": "/static/media/AT_Logo_BlackOutline_Small.42ea1556f042e4c1caf6.png",
     "static/media/SQASquare_Small_Size.png": "/static/media/SQASquare_Small_Size.d93ee84baae253095231.png",
     "index.html": "/index.html",
-    "main.f65dfece.css.map": "/static/css/main.f65dfece.css.map",
-    "main.598114ae.js.map": "/static/js/main.598114ae.js.map",
+    "main.b79ae1f4.css.map": "/static/css/main.b79ae1f4.css.map",
+    "main.e0722932.js.map": "/static/js/main.e0722932.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f65dfece.css",
-    "static/js/main.598114ae.js"
+    "static/css/main.b79ae1f4.css",
+    "static/js/main.e0722932.js"
   ]
 }
