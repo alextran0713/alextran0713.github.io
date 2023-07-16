@@ -1,8 +1,9 @@
 import BodyContent from "../components/body";
+import Footer from "../components/footer";
 import NavigationBar from "../components/navbar";
 import Popup from "../components/popup";
 import Resume from "../components/resume";
-import { websiteInProgressAlert } from "../data";
+import { WebsiteInProgressAlert } from "../data";
 import styles from "./main.module.scss";
 import { useState } from "react";
 
@@ -15,9 +16,9 @@ const MainPage = () => {
     <div className={styles?.["container"]}>
       {alertDisplay && (
         <Popup
-          title={websiteInProgressAlert?.title}
-          message={websiteInProgressAlert?.message}
-          closeButton={websiteInProgressAlert?.closeButton}
+          title={WebsiteInProgressAlert?.title}
+          message={WebsiteInProgressAlert?.message}
+          closeButton={WebsiteInProgressAlert?.closeButton}
           isShow={alertDisplay}
           setIsShow={setAlertDisplay}
         />
@@ -29,6 +30,7 @@ const MainPage = () => {
         handleIsClose={setDisplayResume}
         isResume={displayResume}
       />
+      <Footer />
     </div>
   );
 };

@@ -1,10 +1,10 @@
 import { useTypewriter } from "react-simple-typewriter";
 import styles from "./index.module.scss";
-import { aboutMeDescription } from "../../data";
+import { KeywordDescription, AboutMeDescription } from "../../data";
 
 const AboutMe = () => {
   const [typeEffect] = useTypewriter({
-    words: ["Software Developer", "Collaborator", "Gamer"],
+    words: KeywordDescription,
     loop: true,
     typeSpeed: 100,
     deleteSpeed: 70,
@@ -25,7 +25,7 @@ const AboutMe = () => {
       </span>
       <br />
       <span className={styles?.["aboutme-description"]}>
-        {aboutMeDescription}
+        {AboutMeDescription}
       </span>
     </div>
   );

@@ -21,7 +21,8 @@ export interface TechnicalSkill {
   listOfSkills: string[];
 }
 
-export interface TechnicalSkillData {
-  description?: string;
-  frameworkAndSkill?: TechnicalSkill[];
+export interface ContactMethod {
+  icon: string;
+  name: string;
+  link: string;
 }

@@ -1,6 +1,11 @@
-import { AlertType, JobInfo, TechnicalSkillData } from "../types/types";
+import {
+  AlertType,
+  ContactMethod,
+  JobInfo,
+  TechnicalSkill,
+} from "../types/types";
 
-export const jobs: JobInfo[] = [
+export const Jobs: JobInfo[] = [
   {
     jobTitle: "Full-stack Developer",
     jobDescriptions: [
@@ -56,7 +61,7 @@ export const jobs: JobInfo[] = [
       "Hosted and deployed the application to Heroku, a cloud platform as a service (<b>PaaS</b>) provider",
       "Continuously maintained and provided support for new feature updates and releases",
     ],
-    companyName: "Bolsa Group",
+    companyName: "BolsaGroup",
     companyLogo: require("../img/BolsaGroup_Small_Size.png"),
     duration: {
       from: "11/01/2020",
@@ -65,61 +70,84 @@ export const jobs: JobInfo[] = [
   },
 ];
 
-export const websiteInProgressAlert: AlertType = {
+export const WebsiteInProgressAlert: AlertType = {
   title: "Important Message",
   message:
     "Kindly be advised that my website is currently undergoing development and nearing its final stages. I would like to extend an exclusive preview, providing you with a glimpse of what's in store.",
   closeButton: true,
 };
 
-export const aboutMeDescription =
+export const AboutMeDescription =
   "I have accumulated 2+ years of hands-on experience working with React and TypeScript. During my time at 777 Partners, I have developed and sharpened my skill to create customizable and reusable components/libraries. I have developed and provided support for an affordable airline carrier's internet booking engine (IBE). I am committed to using my skills to make a difference. Whether it's developing applications that promote sustainability, or designing software to enhance accessibility, I am driven by the desire to contribute to a better world through my coding abilities.";
 
-export const technicalSkillData: TechnicalSkillData = {
-  description:
-    "I am currently seeking a company that can support the growth of my career as a software developer while providing me with the opportunity to make a significant impact through Software as a Service (SaaS)",
-  frameworkAndSkill: [
-    {
-      sectionName: "Languages",
-      img: "",
-      listOfSkills: [
-        "Typescript",
-        "Javascript",
-        "C++",
-        "Python",
-        "HTML",
-        "CSS",
-        "Bash",
-      ],
-    },
-    {
-      sectionName: "Frameworks and Libraries",
-      img: "",
-      listOfSkills: [
-        "Reacts",
-        "React Native",
-        "Mobx",
-        "Express,js",
-        "Node.js",
-        "Next.js",
-        "Bootstrap",
-        "Fastlane",
-        "Codepush",
-      ],
-    },
-    {
-      sectionName: "Tools",
-      img: "",
-      listOfSkills: [
-        "Jira",
-        "GitLab CI/CD",
-        "Android Studio",
-        "Xcode",
-        "App Store",
-        "Next.js",
-        "Google Play",
-        "Heroku",
-      ],
-    },
-  ],
-};
+export const TechnicalSkillData: TechnicalSkill[] = [
+  {
+    sectionName: "Languages",
+    img: "",
+    listOfSkills: [
+      "Typescript",
+      "Javascript",
+      "C++",
+      "Python",
+      "HTML",
+      "CSS",
+      "Bash",
+    ],
+  },
+  {
+    sectionName: "Frameworks and Libraries",
+    img: "",
+    listOfSkills: [
+      "Reacts",
+      "React Native",
+      "Mobx",
+      "Express,js",
+      "Node.js",
+      "Next.js",
+      "Bootstrap",
+      "Fastlane",
+      "Codepush",
+    ],
+  },
+  {
+    sectionName: "Tools",
+    img: "",
+    listOfSkills: [
+      "Jira",
+      "GitLab CI/CD",
+      "Android Studio",
+      "Xcode",
+      "App Store",
+      "Google Play",
+      "Heroku",
+    ],
+  },
+];
+
+export const KeywordDescription: string[] = [
+  "Software Developer",
+  "Problem Solver",
+  "Collaborator",
+  "Innovator",
+];
+
+export const JobSeekDescription: string =
+  "I am currently seeking a company that can support the growth of my career as a software developer while providing me with the opportunity to make a significant impact through Software as a Service (SaaS)";
+
+export const ContactUs: ContactMethod[] = [
+  {
+    icon: require("../img/contact-us/LinkedIn_Icon.png"),
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/alex-tran-ab9095176/",
+  },
+  {
+    icon: require("../img/contact-us/Github_Icon.png"),
+    name: "Github",
+    link: "https://github.com/alextran0713",
+  },
+  {
+    icon: require("../img/contact-us/Gmail_Icon.png"),
+    name: "Gmail",
+    link: "alextran9613@gmail.com",
+  },
+];
