@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  // justify-content: center;
+}
+
+.description-text {
+  width: 50%;
+  font-size: 13px;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section-skill {
+  border: 1px solid;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}

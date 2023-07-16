@@ -14,3 +14,15 @@ export interface AlertType {
   closeButton?: boolean;
   selectionButton?: boolean;
 }
+
+export interface TechnicalSkill {
+  sectionName: string;
+  img?: string;
+  listOfSkills: string[];
+}
+
+export interface ContactMethod {
+  icon: string;
+  name: string;
+  link: string;
+}

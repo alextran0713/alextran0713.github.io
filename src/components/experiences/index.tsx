@@ -2,7 +2,7 @@ import { Row } from "react-bootstrap";
 import JobItem from "../job-item";
 import styles from "./index.module.scss";
 import { map } from "lodash";
-import { jobs } from "../../data";
+import { Jobs } from "../../data";
 
 interface ExperienceSectionProps {}
 
@@ -11,7 +11,7 @@ const ExperienceSection = () => {
     <div className={styles?.["container"]}>
       <h1>Work Experiences</h1>
       <Row>
-        {map(jobs || [], (job) => {
+        {map(Jobs || [], (job) => {
           return (
             <JobItem
               jobTitle={job?.jobTitle}
