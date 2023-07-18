@@ -9,7 +9,7 @@ interface ExperienceSectionProps {}
 const ExperienceSection = () => {
   return (
     <div className={styles?.["container"]}>
-      <h1>Work Experiences</h1>
+      <h1>Employment</h1>
       <Row>
         {map(Jobs || [], (job) => {
           return (

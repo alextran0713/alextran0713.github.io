@@ -26,3 +26,21 @@ export interface ContactMethod {
   name: string;
   link: string;
 }
+
+export type attendDuration = JobDate;
+export interface Address {
+  address1: string;
+  city: string;
+  state: string;
+  zipCode: string;
+}
+
+export interface Education {
+  degree: string;
+  duration: attendDuration;
+  schoolName: string;
+  address: Address;
+  phoneNumber: string;
+  src?: string;
+  url?: string;
+}
