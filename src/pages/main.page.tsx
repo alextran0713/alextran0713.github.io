@@ -10,7 +10,7 @@ import { useState } from "react";
 const MainPage = () => {
   const [displayResume, setDisplayResume] = useState(false);
 
-  const [alertDisplay, setAlertDisplay] = useState(true);
+  const [alertDisplay, setAlertDisplay] = useState(false);
 
   return (
     <div className={styles?.["container"]}>

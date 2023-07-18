@@ -1,6 +1,7 @@
 import {
   AlertType,
   ContactMethod,
+  Education,
   JobInfo,
   TechnicalSkill,
 } from "../types/types";
@@ -101,10 +102,10 @@ export const TechnicalSkillData: TechnicalSkill[] = [
       "Reacts",
       "React Native",
       "Mobx",
-      "Express,js",
+      "Express.js",
       "Node.js",
       "Next.js",
-      "Bootstrap",
+      "Bootstrap5",
       "Fastlane",
       "Codepush",
     ],
@@ -149,5 +150,40 @@ export const ContactUs: ContactMethod[] = [
     icon: require("../img/contact-us/Gmail_Icon.png"),
     name: "Gmail",
     link: "alextran9613@gmail.com",
+  },
+];
+
+export const EducationData: Education[] = [
+  {
+    degree: "Master of Science, Software Engineering",
+    duration: {
+      from: "08/19/2023",
+      to: null,
+    },
+    schoolName: "California State University, Fullerton",
+    address: {
+      address1: "800 N. State College Blvd",
+      city: "Fullerton",
+      state: "CA",
+      zipCode: "92831",
+    },
+    phoneNumber: "(657)278-2011",
+    src: require("../img/timeline-csuf.png"),
+  },
+  {
+    degree: "Bachelor of Science, Computer Science",
+    duration: {
+      from: "08/19/2017",
+      to: "05/28/2020",
+    },
+    schoolName: "California State University, Fullerton",
+    address: {
+      address1: "800 N. State College Blvd",
+      city: "Fullerton",
+      state: "CA",
+      zipCode: "92831",
+    },
+    phoneNumber: "(657)278-2011",
+    src: require("../img/timeline-csuf.png"),
   },
 ];
