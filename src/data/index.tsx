@@ -155,7 +155,7 @@ export const ContactUs: ContactMethod[] = [
 
 export const EducationData: Education[] = [
   {
-    degree: "Master of Science in Software Engineering",
+    degree: "Master of Science, Software Engineering",
     duration: {
       from: "08/19/2023",
       to: null,
@@ -171,7 +171,7 @@ export const EducationData: Education[] = [
     src: require("../img/timeline-csuf.png"),
   },
   {
-    degree: "Bachelor of Science in Computer Science",
+    degree: "Bachelor of Science, Computer Science",
     duration: {
       from: "08/19/2017",
       to: "05/28/2020",
