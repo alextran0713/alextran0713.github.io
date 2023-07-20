@@ -14,7 +14,7 @@ export const Jobs: JobInfo[] = [
       "Leverage <b>Fastlane</b> and <b>CodePush</b> to facilitate the efficient release of the application on both <b>Google Play</b> and <b>App Store</b>",
       "Implement an automated continuous deployment workflow using <b>GitLab CI/CD</b>",
       "Design and develop a library of customizable and reusable frontend components that can be utilized across multiple applications",
-      "Utilize <b>Typescript</b> and <b>JavaScript</b> within <b>React/React Native</b> platform to construct a robust and scalable frontend applications",
+      "Utilize <b>TypeScript</b> and <b>JavaScript</b> within <b>React/React Native</b> platform to construct a robust and scalable frontend applications",
     ],
     companyName: "777 Partners",
     companyLogo: require("../img/777Partners_Original_Logo.png"),
@@ -59,7 +59,7 @@ export const Jobs: JobInfo[] = [
     jobTitle: "Web Developer",
     jobDescriptions: [
       "Utilized a <b>microservice</b> architecture approach to design both the Frontend and Backend applications",
-      "Hosted and deployed the application to Heroku, a cloud platform as a service (<b>PaaS</b>) provider",
+      "Hosted and deployed the application to <b>Heroku</b>, a cloud platform as a service (<b>PaaS</b>) provider",
       "Continuously maintained and provided support for new feature updates and releases",
     ],
     companyName: "BolsaGroup",
@@ -86,8 +86,8 @@ export const TechnicalSkillData: TechnicalSkill[] = [
     sectionName: "Languages",
     img: "",
     listOfSkills: [
-      "Typescript",
-      "Javascript",
+      "TypeScript",
+      "JavaScript",
       "C++",
       "Python",
       "HTML",
