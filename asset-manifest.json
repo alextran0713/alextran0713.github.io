@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a824bf7.css",
-    "main.js": "/static/js/main.3afa1457.js",
+    "main.css": "/static/css/main.8b118bca.css",
+    "main.js": "/static/js/main.73b0a398.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Github_Icon.png": "/static/media/Github_Icon.abb5df5cb6033db6a886.png",
+    "static/media/AlexTran_Resume.pdf": "/static/media/AlexTran_Resume.ee81c045577212ff85bc.pdf",
     "static/media/LinkedIn_Icon.png": "/static/media/LinkedIn_Icon.6ac77341c7a1f1743ba6.png",
-    "static/media/AlexTran_Resume.pdf": "/static/media/AlexTran_Resume.8e73ec82142edd663d2e.pdf",
     "static/media/Profile.png": "/static/media/Profile.32d9f9e6c48ce53d8889.png",
     "static/media/under-con.webp": "/static/media/under-con.400c89b12550893ff87c.webp",
     "static/media/Gmail_Icon.png": "/static/media/Gmail_Icon.f1e9bccc16471cd4a86c.png",
     "static/media/AT_Logo_BlackOutline_Small.png": "/static/media/AT_Logo_BlackOutline_Small.42ea1556f042e4c1caf6.png",
     "static/media/SQASquare_Small_Size.png": "/static/media/SQASquare_Small_Size.d93ee84baae253095231.png",
     "index.html": "/index.html",
-    "main.6a824bf7.css.map": "/static/css/main.6a824bf7.css.map",
-    "main.3afa1457.js.map": "/static/js/main.3afa1457.js.map",
+    "main.8b118bca.css.map": "/static/css/main.8b118bca.css.map",
+    "main.73b0a398.js.map": "/static/js/main.73b0a398.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a824bf7.css",
-    "static/js/main.3afa1457.js"
+    "static/css/main.8b118bca.css",
+    "static/js/main.73b0a398.js"
   ]
 }
